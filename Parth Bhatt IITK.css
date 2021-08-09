@@ -1,0 +1,141 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: rgb(20, 43, 85);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Alpha {
+    color: green;
+    margin: 3px;
+    font-size: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: orange;
+}
+
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.nav {
+    background-color: blue;
+}
+
+.jumbotron {
+    margin: 0px;
+    background-color: green;
+    align-items: center;
+}
+
+h1 {
+    font-family: Palatino, Serif;
+    color: red;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: Palatino, Serif;
+    color: Yellow;
+    font-size: 30px;
+}
+
+.PP {
+    color: green;
+    font-size: 25px;
+}
+
+.PP-item {
+    border: 5px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+
+.PP a {
+    color: purple;
+    font-size: 20px;
+}
+
+.nav {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: Black;
+    font-size: 20px;
+}
+
+.main {
+    font-family: sans-serif;
+    color: Black;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.BUTTON {
+    float: right;
+}
+
+.BUTTON a {
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;
+}
+
+.BUTTON a:active {
+    position: relative;
+    bottom: 10px;
+}
+
+#F {
+    color: orange;
+    padding: 20px;
+    font-size: 0.75 rem;
+}
+
+footer {
+    padding: 20px;
+    margin: 0px;
+    color: blue;
+    background-color: Red;
+}
+
+footer .col-sm-4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-sm-8 p {
+    font-size: 20px;
+    margin: 2px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li img {
+    height: 32px;
+    width: 32px;
+}
